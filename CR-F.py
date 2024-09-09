@@ -5,6 +5,8 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
+print(f"{Fore.RED}HACK Mr: B{Style.RESET_ALL}")
+
 def detect_hash_type(hash_value):
     hash_length = len(hash_value)
     if hash_length == 32:
